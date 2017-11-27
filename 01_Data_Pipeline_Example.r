@@ -30,6 +30,7 @@ data.ingested[1:3,]
 #EXERCISE: Ingest a different subset of the data
 
 #Clean the data
+#install.packages("reshape")
 library(reshape)
 
 #Remove rows with blank excess readmission ratios
