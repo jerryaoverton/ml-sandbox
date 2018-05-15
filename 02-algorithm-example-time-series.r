@@ -7,7 +7,7 @@ library(dplyr)
 data <- read.csv('SP500Data.csv')
 head(data)
 
-#Read the close price for the the S&P 500 Indes for the last month
+#Read the close price for the the S&P 500 Index for the last month
 cols <- c("Date", "Close")
 
 #Create the data set needed to fit a model
